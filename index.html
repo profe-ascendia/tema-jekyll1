@@ -1,6 +1,8 @@
 ---
 layout: page
 ---
+<a href="/primera">Enlace a la primera</a>
+
 <div class="container">
 <h1>Listado de entradas del blog</h1>
 
@@ -14,3 +16,14 @@ layout: page
 	</div>
 	{% endfor %}
 </div>
+<h2>Formulario de contacto</h2>
+<form method="POST" action="https://formspree.io/ascendia.teosanchez@gmail.com">
+  <input type="hidden" name="_language" value="es" />
+
+  <input type="text" name="nombre" placeholder="Nombre">
+  <input type="text" name="apellidos" placeholder="Apellidos">
+  <button type="submit">Enviar</button>
+</form>
+
+<hr>
+<a href="https://form.jotformeu.com/82044524337352">Formulario de prueba</a>
